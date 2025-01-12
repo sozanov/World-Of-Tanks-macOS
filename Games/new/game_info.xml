@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<protocol name="game_info" version="2.16" wgc_publisher_id="lesta">
+    <game>
+        <id>WOT.RU.PRODUCTION</id>
+        <index>0</index>
+        <installed>false</installed>
+        <localization>RU</localization>
+        <content_localizations>
+            <content_localization realm="ru">ru</content_localization>
+        </content_localizations>
+        <client_type>sd</client_type>
+        <show_guide>false</show_guide>
+        <update_urls>
+            <value>https://lstus-ru.lesta.ru/</value>
+        </update_urls>
+        <corrupt_parts/>
+        <part_versions>
+        </part_versions>
+        <parameters>
+            <value name="post_install_action_required">false</value>
+            <value name="preinstall_balloon_shown">false</value>
+        </parameters>
+        <dlc/>
+        <in_game_overlay>true</in_game_overlay>
+        <accepted_preinstalls/>
+        <available_content_languages/>
+    </game>
+</protocol>

@@ -1,0 +1,239 @@
+<protocol name="app_metadata" version="7.2" wgc_publisher_id="lesta">
+    <version>20241211072145</version>
+    <predefined_section>
+		<app_id>WOT.RU.PRODUCTION</app_id>
+		<chain_id>sd3_hd3</chain_id>
+		<supported_languages>BE,RU</supported_languages>
+		<default_language>RU</default_language>
+		<name>Мир танков</name>
+		<fs_name>Tanki</fs_name>
+		<shortcut_name>Мир танков</shortcut_name>
+		<executables>
+			<executable arch="x64" emul="wgc_mac">win64\WorldOfTanks.exe</executable>
+			<executable>WorldOfTanks.exe</executable>
+		</executables>
+		<launch_options>
+			<option id="safe_mode">-safe</option>
+			<option id="reset_graphics">-rg</option>
+			<option id="force_32bit">--win32</option>
+		</launch_options>
+		<keep_patches_interval>0</keep_patches_interval>
+		<client_types default="sd">
+			<client_type id="sd">
+				<initial_app_type>incomplete</initial_app_type>
+				<final_app_type>sd</final_app_type>
+				<min_supported_os>Win7</min_supported_os>
+				<client_parts>
+					<client_part id="locale" integrity="false" lang="true" />
+					<client_part id="client" integrity="true" />
+					<client_part app_type="sd" id="sdcontent" integrity="true" />
+				</client_parts>
+			</client_type>
+			<client_type arch="x64" id="hd">
+				<initial_app_type>incomplete</initial_app_type>
+				<final_app_type>hd</final_app_type>
+				<min_supported_os>Win7</min_supported_os>
+				<client_parts>
+					<client_part id="locale" integrity="false" lang="true" />
+					<client_part id="client" integrity="true" />
+					<client_part app_type="sd" id="sdcontent" integrity="true" />
+					<client_part app_type="hd" id="hdcontent" integrity="true" />
+				</client_parts>
+			</client_type>
+		</client_types>
+		<login_enabled>true</login_enabled>
+		<demo_accounts>
+			<enabled>false</enabled>
+		</demo_accounts>
+		<realms_settings>
+			<instances>
+				<instance default="true" id="wot_ru">
+					<platform_realm_id>ru</platform_realm_id>
+					<game_id>wot</game_id>
+					<title_id>ru.wot</title_id>
+					<content_service_url>https://lstuscs-ru.lesta.ru/</content_service_url>
+					<features>
+						<feature enabled="true" id="game_pages_targeting" />
+						<feature enabled="true" id="buy_game_items" />
+					</features>
+					<common_commerce_agreements>
+						<agreement id="ru_eula" />
+					</common_commerce_agreements>
+				</instance>
+			</instances>
+		</realms_settings>
+		<localization>
+			<item id="ENVIRONMENT_NAME__CT">
+				<text xml:lang="en-ZW">Common Test</text>
+				<text xml:lang="ru">Общий тест</text>
+				<text xml:lang="en">Common Test</text>
+				<text xml:lang="be">Агульнае тэставанне</text>
+			</item>
+			<item id="ENVIRONMENT_NAME__SB">
+				<text xml:lang="en-ZW">Sandbox</text>
+				<text xml:lang="ru">Песочница</text>
+				<text xml:lang="en">Sandbox</text>
+				<text xml:lang="be">Пясочніца</text>
+			</item>
+			<item id="ENVIRONMENT_NAME__ST">
+				<text xml:lang="en-ZW">Supertest</text>
+				<text xml:lang="ru">Супертест</text>
+				<text xml:lang="en">Supertest</text>
+				<text xml:lang="be">Супертэставанне</text>
+			</item>
+			<item id="SD__NAME">
+				<text xml:lang="en-ZW">Standard (SD) Client.</text>
+				<text xml:lang="ru">Стандартный клиент (SD)</text>
+				<text xml:lang="en">Standard (SD) Client</text>
+				<text xml:lang="be">Звычайны кліент (SD)</text>
+			</item>
+			<item id="SD__SHORT_NAME">
+				<text xml:lang="en-ZW">SD</text>
+				<text xml:lang="ru">SD</text>
+				<text xml:lang="en">SD</text>
+				<text xml:lang="be">SD</text>
+			</item>
+			<item id="SD__DESCRIPTION">
+				<text xml:lang="en-ZW">Full game without maximum-quality textures.</text>
+				<text xml:lang="ru">Полная версия игры, за исключением текстур максимального разрешения.</text>
+				<text xml:lang="en">Full game without maximum-quality textures.</text>
+				<text xml:lang="be">Поўная версія гульні, толькі без тэкстур высокай разрознасці.</text>
+			</item>
+			<item id="SD__CLIENT__TITLE">
+				<text xml:lang="en-ZW">Mini Client</text>
+				<text xml:lang="ru">Мини-клиент</text>
+				<text xml:lang="en">Mini Client</text>
+				<text xml:lang="es-MX">Minicliente</text>
+				<text xml:lang="be">Міні-кліент</text>
+			</item>
+			<item id="SD__CLIENT__INFO_BEFORE_INSTALL_TEXT">
+				<text xml:lang="en-ZW">You will receive access to Battle Training and vehicles of starting tiers</text>
+				<text xml:lang="ru">Вы получите доступ к боевому обучению и технике начальных уровней</text>
+				<text xml:lang="en">You will receive access to Battle Training and vehicles of starting tiers</text>
+				<text xml:lang="be">Вы атрымаеце доступ да баявога навучання і тэхнікі пачатковых узроўняў</text>
+			</item>
+			<item id="SD__CLIENT__INFO_AFTER_INSTALL_TITLE">
+				<text xml:lang="en-ZW">Start Playing!</text>
+				<text xml:lang="ru">Начинайте играть!</text>
+				<text xml:lang="en">Start Playing!</text>
+				<text xml:lang="be">Пачынайце гуляць!</text>
+			</item>
+			<item id="SD__CLIENT__INFO_AFTER_INSTALL_TEXT">
+				<text xml:lang="en-ZW">You now have access to Battle Training and vehicles of starting tiers</text>
+				<text xml:lang="ru">У вас уже есть доступ к боевому обучению и технике начальных уровней</text>
+				<text xml:lang="en">You now have access to Battle Training and vehicles of starting tiers</text>
+				<text xml:lang="be">Вы ўжо маеце доступ да баявога навучання і тэхнікі пачатковых узроўняў</text>
+			</item>
+			<item id="HD__NAME">
+				<text xml:lang="en-ZW">HD Client</text>
+				<text xml:lang="ru">HD клиент</text>
+				<text xml:lang="en">HD Client</text>
+				<text xml:lang="be">HD-кліент</text>
+			</item>
+			<item id="HD__SHORT_NAME">
+				<text xml:lang="en-ZW">HD</text>
+				<text xml:lang="ru">HD</text>
+				<text xml:lang="en">HD</text>
+				<text xml:lang="be">HD</text>
+			</item>
+			<item id="HD__DESCRIPTION">
+				<text xml:lang="en-ZW">Full game including maximum-quality textures. Requires more space on the hard drive than the Standard (SD) Client.</text>
+				<text xml:lang="ru">Полная версия игры, включая текстуры максимального разрешения. Занимает больше места на жёстком диске, чем стандартный клиент (SD).</text>
+				<text xml:lang="en">Full game including maximum-quality textures. Requires more space on the hard drive than the Standard (SD) Client.</text>
+				<text xml:lang="be">Поўная версія гульні з тэкстурамі высокай разрознасці. Займае больш месца на цвёрдым дыску.</text>
+			</item>
+			<item id="HD__CLIENT__TITLE">
+				<text xml:lang="en-ZW">Mini Client</text>
+				<text xml:lang="ru">Мини-клиент</text>
+				<text xml:lang="en">Mini Client</text>
+				<text xml:lang="be">Міні-кліент</text>
+			</item>
+			<item id="HD__CLIENT__INFO_BEFORE_INSTALL_TEXT">
+				<text xml:lang="en-ZW">You will receive access to Battle Training and vehicles of starting tiers</text>
+				<text xml:lang="ru">Вы получите доступ к боевому обучению и технике начальных уровней</text>
+				<text xml:lang="en">You will receive access to Battle Training and vehicles of starting tiers</text>
+				<text xml:lang="be">Вы атрымаеце доступ да баявога навучання і тэхнікі пачатковых узроўняў</text>
+			</item>
+			<item id="HD__CLIENT__INFO_AFTER_INSTALL_TITLE">
+				<text xml:lang="en-ZW">Start Playing!</text>
+				<text xml:lang="ru">Начинайте играть!</text>
+				<text xml:lang="en">Start Playing!</text>
+				<text xml:lang="be">Пачынайце гуляць!</text>
+			</item>
+			<item id="HD__CLIENT__INFO_AFTER_INSTALL_TEXT">
+				<text xml:lang="en-ZW">You now have access to Battle Training and vehicles of starting tiers</text>
+				<text xml:lang="ru">У вас уже есть доступ к боевому обучению и технике начальных уровней</text>
+				<text xml:lang="en">You now have access to Battle Training and vehicles of starting tiers</text>
+				<text xml:lang="be">Вы ўжо маеце доступ да баявога навучання і тэхнікі пачатковых узроўняў</text>
+			</item>
+			<item id="HD__SDCONTENT__TITLE">
+				<text xml:lang="en-ZW">Standard Client</text>
+				<text xml:lang="ru">Стандартный клиент</text>
+				<text xml:lang="en">Standard Client</text>
+				<text xml:lang="be">Звычайны кліент</text>
+			</item>
+			<item id="HD__SDCONTENT__INFO_BEFORE_INSTALL_TEXT">
+				<text xml:lang="en-ZW">You will receive access to the full game without maximum-quality textures</text>
+				<text xml:lang="ru">Вы получите доступ к полной версии игры, за исключением текстур максимального разрешения</text>
+				<text xml:lang="en">You will receive access to the full game without maximum-quality textures</text>
+				<text xml:lang="be">Вы атрымаеце доступ да поўнай версіі гульні, толькі без тэкстур высокай разрознасці</text>
+			</item>
+			<item id="HD__SDCONTENT__INFO_AFTER_INSTALL_TITLE">
+				<text xml:lang="en-ZW">Start Playing!</text>
+				<text xml:lang="ru">Начинайте играть!</text>
+				<text xml:lang="en">Start Playing!</text>
+				<text xml:lang="be">Пачынайце гуляць!</text>
+			</item>
+			<item id="HD__SDCONTENT__INFO_AFTER_INSTALL_TEXT">
+				<text xml:lang="en-ZW">You now have access to the full game without maximum-quality textures</text>
+				<text xml:lang="ru">У вас уже есть доступ к полной версии игры, за исключением текстур максимального разрешения</text>
+				<text xml:lang="en">You now have access to the full game without maximum-quality textures</text>
+				<text xml:lang="be">Вы ўжо маеце доступ да поўнай версіі гульні, толькі без тэкстур высокай разрознасці</text>
+			</item>
+			<item id="LAUNCH_OPTION_TITLE__SAFE_MODE">
+				<text xml:lang="en-ZW">Launch the game in safe mode</text>
+				<text xml:lang="ru">Запуск игры без модификаций</text>
+				<text xml:lang="en">Launch the game in safe mode</text>
+				<text xml:lang="be">Запуск гульні без мадыфікацый</text>
+			</item>
+			<item id="LAUNCH_OPTION_DESCRIPTION__SAFE_MODE">
+				<text xml:lang="en-ZW">Any installed game client modifications will be ignored.</text>
+				<text xml:lang="ru">Игра запустится без установленных модификаций клиента.</text>
+				<text xml:lang="en">Any installed game client modifications will be ignored.</text>
+				<text xml:lang="be">Гульня запусціцца без усталяваных мадыфікацый кліента.</text>
+			</item>
+			<item id="LAUNCH_OPTION_TITLE__RESET_GRAPHICS">
+				<text xml:lang="en-ZW">Launch the game with default graphics settings</text>
+				<text xml:lang="ru">Запуск игры с графическими настройками по умолчанию</text>
+				<text xml:lang="en">Launch the game with default graphics settings</text>
+				<text xml:lang="be">Запуск гульні з перадвызначанымі графічнымі наладамі</text>
+			</item>
+			<item id="LAUNCH_OPTION_DESCRIPTION__RESET_GRAPHICS">
+				<text xml:lang="en-ZW">All graphics settings will be reset to default.</text>
+				<text xml:lang="ru">При запуске игры будут использованы графические настройки по умолчанию.</text>
+				<text xml:lang="en">All graphics settings will be reset to default.</text>
+				<text xml:lang="be">Пры запуску гульні будуць выкарыстаны перадвызначаныя графічныя налады.</text>
+			</item>
+			<item id="LAUNCH_OPTION_TITLE__FORCE_32BIT">
+				<text xml:lang="en-ZW">Launching x86 game client</text>
+				<text xml:lang="ru">Запуск x86 клиента игры</text>
+				<text xml:lang="en">Launching x86 game client</text>
+				<text xml:lang="be">Запуск x86 кліента гульні</text>
+			</item>
+			<item id="LAUNCH_OPTION_DESCRIPTION__FORCE_32BIT">
+				<text xml:lang="en-ZW">32-bit version of the game client will be launched.</text>
+				<text xml:lang="ru">Запустится 32-битная версия клиента игры.</text>
+				<text xml:lang="en">32-bit version of the game client will be launched.</text>
+				<text xml:lang="be">Запусціцца 32-бітная версія кліента гульні.</text>
+			</item>
+		</localization>
+	</predefined_section>
+
+    <generated_section>
+        
+            <launch_forbidden>False</launch_forbidden>
+        
+            <stop_supporting>False</stop_supporting>
+        
+    </generated_section>
+</protocol>

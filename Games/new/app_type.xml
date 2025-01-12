@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<protocol name="app_type" version="3.0">
+ <app_type>incomplete</app_type>
+ <switch_to_type>sd</switch_to_type>
+</protocol>
