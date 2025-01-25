@@ -26,35 +26,33 @@ http://xerocop.ru/git/tanki.zip
 xattr -r -c /Applications/Tanki.app
 ```
 
-<img src="http://127.0.0.1:8000/img/22.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/22.jpg">
 
 Запустите LGC – начнётся скачивание
 
-[//]: # (https://raw.github.com/gmaxus/Mir-tankov-macOS/main/)
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/0.jpg">
 
-<img src="http://127.0.0.1:8000/img/0.jpg">
-
-<img src="http://127.0.0.1:8000/img/1.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/1.jpg">
 
 По окончании скачивания вы увидите следующее
 
-<img src="http://127.0.0.1:8000/img/2.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/2.jpg">
 
 Закройте Lesta Game Center
 
-<img src="http://127.0.0.1:8000/img/3.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/3.jpg">
 
 Запустите Tanki
 
-<img src="http://127.0.0.1:8000/img/4.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/4.jpg">
 
 Вы великолепны!
 
-<img src="http://127.0.0.1:8000/img/5.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/5.jpg">
 
 # Обновления
 
-<img src="http://127.0.0.1:8000/img/6.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/6.jpg">
 
 Если вы видите что Мир танков стал сообщать о необходимости обновления игры, то запустите LGC (Мир танков при этом должен быть закрыт) он скачает и установит все обновления сам
 
@@ -65,11 +63,11 @@ xattr -r -c /Applications/Tanki.app
 # Доработки
 Чтобы отображался магазин отключите Аппаратное ускорение браузера
 
-<img src="http://127.0.0.1:8000/img/shop-fix.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/shop-fix.jpg">
 
 Если возникнут подлагивания звука, то это лечится включением опции Низкое качество в настройках звука. У меня такой проблемы нет, но есть на Crossover
 
-<img src="http://127.0.0.1:8000/img/sound-fix.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/sound-fix.jpg">
 
 # Ручной способ создания Wineskin
 
@@ -93,15 +91,15 @@ brew install --cask --no-quarantine The-Project/wineskin/wineskin
 ## Создание Wineskin враппера
 Запустив Wineskin Winery нажимаем **+** для добавления версии Wine движка
 
-<img src="http://127.0.0.1:8000/img/14.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/14.jpg">
 
 Выбираем **WS12WineWhiskey-2.3.2** и нажимаем **Download and install**
 
-<img src="http://127.0.0.1:8000/img/15.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/15.jpg">
 
 Нажимаем **Create New Blank Wrapper**, вводим **Tanki** в появившемся окне и нажимаем **OK**
 
-<img src="http://127.0.0.1:8000/img/16.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/16.jpg">
 
 Wineskin создаст враппер c введённым вами названием и будет располагаться по адресу ~/Applications/Wineskin
 
@@ -112,16 +110,16 @@ Wineskin создаст враппер c введённым вами назва�
 
 Запускаем созданный враппер и нажимаем верхний пункт **Install Software** и в следующем окне нажимаем **Choose Setup Executable**, после чего выбираем скачанный инсталлятор LGC
 
-<img src="http://127.0.0.1:8000/img/17.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/17.jpg">
 
 После установки в доке будет логотип LGC – нажимаем по нему правой кнопкой и выбираем **Завершить**
 
-<img src="http://127.0.0.1:8000/img/3.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/3.jpg">
 
 ## Настройка Lesta Game Center
 Откройте содержимое созданного враппера кликнув правой кнопкой по нему и выберете **Показать содержимое пакета**
 
-<img src="http://127.0.0.1:8000/img/18.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/18.jpg">
 
 Откройте папку **Contents**, **drive_c**.
 
@@ -136,7 +134,7 @@ Wineskin создаст враппер c введённым вами назва�
 
 Как указано на скриншоте
 
-<img src="http://127.0.0.1:8000/img/19.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/19.jpg">
 
 
 Скопируйте это в файл **app_type.xml**
@@ -426,7 +424,7 @@ Wineskin создаст враппер c введённым вами назва�
 
 В папке Program Files (x86)/Lesta/GameCenter удаляем **preferences.xml.bak**
 
-<img src="http://127.0.0.1:8000/img/20.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/20.jpg">
 
 В той же папке откройте файл **preferences.xml**
 
@@ -476,21 +474,21 @@ Wineskin создаст враппер c введённым вами назва�
 
 В открывшемся окне кликните по Advanced
 
-<img src="http://127.0.0.1:8000/img/7.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/7.jpg">
 
 В поле **Windows app** введите это (с кавычками)
 ```text
 "C:\Games\Tanki\Tanki.exe" 
 ```
-<img src="http://127.0.0.1:8000/img/11.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/11.jpg">
 
 
 Нажмите нижний **Browse** и выберите иконку Мира танков
-<img src="http://127.0.0.1:8000/img/12.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/12.jpg">
 
 Откройте вкладку **Tools** и нажмите кнопку **Custom EXE Creator**
 
-<img src="http://127.0.0.1:8000/img/8.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/8.jpg">
 
 В поле **Name to use** введите **LGC**.
 
@@ -501,17 +499,17 @@ Wineskin создаст враппер c введённым вами назва�
 
 Нажмите **Save**
 
-<img src="http://127.0.0.1:8000/img/9.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/9.jpg">
 
 У вас появится файл LGC, это исполняемый файл для установки и обновления через Lesta Game Center
 
-<img src="http://127.0.0.1:8000/img/10.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/10.jpg">
 
 Чтобы у LGC была соответствующая иконка, кликните правой кнопкой мыши по LGC и выберете **Показать содержимое пакета**
 
 Скопируйте **LGC.icns** и переименуйте в **Wineskin.icns** с заменой в папку **Resources** как показано на скриншоте
 
-<img src="http://127.0.0.1:8000/img/21.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/21.jpg">
 
 Чтобы он стал исполняем вне враппера необходимо сделать на него ссылку следующей командой в **Терминале**
 
@@ -519,14 +517,14 @@ Wineskin создаст враппер c введённым вами назва�
 ln -s /Applications/Tanki.app/Contents/LGC.app /Applications/LGC.app
 ```
 
-<img src="http://127.0.0.1:8000/img/13.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/13.jpg">
 
 
 Теперь у вас в программах появился LGC
 
 Для начала процесса скачивания Мира танков запустите LGC и дождитесь его окончания
 
-<img src="http://127.0.0.1:8000/img/0.jpg">
+<img src="https://raw.github.com/gmaxus/Mir-tankov-macOS/main/img/0.jpg">
 
 В лаунчере и в программах иконки могут отображаться не верно, но это исправится после перезагрузки
 
