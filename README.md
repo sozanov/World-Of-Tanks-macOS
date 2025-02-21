@@ -13,13 +13,9 @@
 
 ## Установка
 
-* Скачайте
+* [Скачайте](https://github.com/gmaxus/Mir-tankov-macOS/raw/refs/heads/main/tanki.zip)
 * Разархивируйте
-* Переместите Tanki и LGC в папку Программы
-
-```text
-https://raw.github.com/gmaxus/Mir-tankov-macOS/tanki.zip
-```
+* Переместите **Tanki** и **LGC** в папку **Программы**
 
 Выполните следующую команду в **Терминале**
 ```text
