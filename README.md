@@ -18,7 +18,7 @@
 * Переместите Tanki и LGC в папку Программы
 
 ```text
-http://xerocop.ru/git/tanki.zip
+https://raw.github.com/gmaxus/Mir-tankov-macOS/tanki.zip
 ```
 
 Выполните следующую команду в **Терминале**
