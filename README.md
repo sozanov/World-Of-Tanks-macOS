@@ -20,7 +20,7 @@ This build:
 
 ## Installation
 
-* [Download](https://github.com/gmaxus/Mir-tankov-macOS/raw/refs/heads/main/WorldOfTanks.zip)
+* [Download](https://github.com/sozanov/World-Of-Tanks-macOS/raw/refs/heads/main/WorldOfTanks.zip)
 * Unzip the archive
 * Move **World Of Tanks** and **WGC** into the **Applications** folder
 
